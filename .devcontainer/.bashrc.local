@@ -1,0 +1,5 @@
+export DEVCONTAINER=true
+source /opt/ros/jazzy/setup.bash
+
+alias colcon_build='colcon build --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON --symlink-install'
+
